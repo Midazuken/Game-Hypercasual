@@ -12,7 +12,7 @@ public class Loop : MonoBehaviour
     private int _fundosLenght;
     protected System.Action<Transform> onfundoloop;
     
-    void Start()
+    void Awake()
     {
         _fundosLenght = fundos.Length;
     }
