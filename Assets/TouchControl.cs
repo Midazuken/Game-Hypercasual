@@ -18,17 +18,7 @@ public class TouchControl : MonoBehaviour
 
         foreach (Touch dedo in touches)
         {
-            if (dedo.phase == TouchPhase.Began)
-            {
-                player[dedo.fingerId].SetActive(true);
-            }
-
-            if (dedo.phase == TouchPhase.Canceled || dedo.phase == TouchPhase.Ended)
-            {
-                player[dedo.fingerId].SetActive(false);
-                return;
-            }
-
+            
             player[dedo.fingerId].transform.position = dedo.position;
 
         }
