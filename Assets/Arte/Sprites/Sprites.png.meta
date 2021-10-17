@@ -757,8 +757,8 @@ TextureImporter:
       name: Sprites_33
       rect:
         serializedVersion: 2
-        x: 2547
-        y: 1095
+        x: 2546
+        y: 1096
         width: 130
         height: 110
       alignment: 0
@@ -780,8 +780,8 @@ TextureImporter:
         serializedVersion: 2
         x: 2787
         y: 1103
-        width: 122
-        height: 68
+        width: 130
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,9 +800,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2995
-        y: 1065
-        width: 124
-        height: 114
+        y: 1067
+        width: 130
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,8 +822,8 @@ TextureImporter:
         serializedVersion: 2
         x: 3231
         y: 1097
-        width: 120
-        height: 74
+        width: 130
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
