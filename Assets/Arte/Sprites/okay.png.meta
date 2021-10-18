@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: d3435c0229c50064a9c7994ec991fb1c
+guid: dc1f184c034b64542a607d3624098a04
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3892195422406246331
-    second: felicidade_0
+      213: -429505742483678987
+    second: okay_0
   - first:
-      213: 4739082254409695212
-    second: felicidade_1
+      213: -2450952926216019037
+    second: okay_1
   - first:
-      213: -7903689060597570246
-    second: felicidade_2
+      213: -4687766093798252057
+    second: okay_2
   - first:
-      213: 1453636205336767257
-    second: felicidade_12
+      213: -5436234221901733941
+    second: okay_11
   - first:
-      213: -8716501735981268073
-    second: felicidade_13
+      213: 7197339599545402870
+    second: okay_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: felicidade_0
+      name: okay_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 540031392e42cf9c0800000000000000
-      internalID: -3892195422406246331
+      spriteID: 5f815468dc61a0af0800000000000000
+      internalID: -429505742483678987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felicidade_1
+      name: okay_1
       rect:
         serializedVersion: 2
-        x: 2820
-        y: 2181
-        width: 1151
-        height: 917
+        x: 2818
+        y: 2184
+        width: 1154
+        height: 912
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cef727f933a94c140800000000000000
-      internalID: 4739082254409695212
+      spriteID: 3a3a0bf9c477cfdd0800000000000000
+      internalID: -2450952926216019037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felicidade_2
+      name: okay_2
       rect:
         serializedVersion: 2
-        x: 1553
-        y: 3321
-        width: 866
-        height: 542
+        x: 1552
+        y: 3309
+        width: 874
+        height: 552
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a35e0f7cca4705290800000000000000
-      internalID: -7903689060597570246
+      spriteID: 7e1e8051395b1feb0800000000000000
+      internalID: -4687766093798252057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felicidade_12
+      name: okay_11
       rect:
         serializedVersion: 2
         x: 1405
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91baeb35d6a5c2410800000000000000
-      internalID: 1453636205336767257
+      spriteID: bcf99bf07cd9e84b0800000000000000
+      internalID: -5436234221901733941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: felicidade_13
+      name: okay_12
       rect:
         serializedVersion: 2
         x: 1407
         y: 2043
         width: 1158
-        height: 136
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 793c2c66ad3c80780800000000000000
-      internalID: -8716501735981268073
+      spriteID: 6f581ce8b3612e360800000000000000
+      internalID: 7197339599545402870
       vertices: []
       indices: 
       edges: []

@@ -9,13 +9,14 @@ public class LoopPassarin : Loop
 
    void Start()
     {
-
+       
         onfundoloop += OnPassarinLoop;
         foreach (Transform passarin in fundos)
         {
 
             DoRandomHeight(passarin);
-            
+           
+
         }
 
     }
@@ -32,8 +33,11 @@ public class LoopPassarin : Loop
     {
 
         DoRandomHeight(passarin);
+        
 
     }
+
+
 
 }
     

@@ -11,7 +11,8 @@ public class Moedinha : MonoBehaviour
     {
         if(moedinha.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
 
             Pause.stay.AllPontos += Pontos;
             Pause.stay.AlterandoPontos();
