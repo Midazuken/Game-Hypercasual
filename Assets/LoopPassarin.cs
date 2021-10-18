@@ -7,16 +7,20 @@ public class LoopPassarin : Loop
 
     [SerializeField] private Vector2 randomHeight;
 
+
    void Start()
     {
-       
+
+        
+        
+
+
         onfundoloop += OnPassarinLoop;
         foreach (Transform passarin in fundos)
         {
 
             DoRandomHeight(passarin);
            
-
         }
 
     }
@@ -26,6 +30,7 @@ public class LoopPassarin : Loop
 
         float randomValue = Random.Range(randomHeight.x, randomHeight.y);
         passarin.position = new Vector2(passarin.position.x, randomValue);
+       
 
     }
 
@@ -33,9 +38,12 @@ public class LoopPassarin : Loop
     {
 
         DoRandomHeight(passarin);
-        
+        gameObject.SetActive(true);
+
 
     }
+
+
 
 
 

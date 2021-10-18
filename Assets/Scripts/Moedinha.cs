@@ -5,12 +5,14 @@ using UnityEngine;
 public class Moedinha : MonoBehaviour
 {
     public int Pontos;
+    public GameObject PegarMoeda;
    
 
-    void OnTriggerEnter2D(Collider2D moedinha)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if(moedinha.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player")
         {
+            Instantiate(PegarMoeda, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
             //Destroy(gameObject);
             gameObject.SetActive(false);
 

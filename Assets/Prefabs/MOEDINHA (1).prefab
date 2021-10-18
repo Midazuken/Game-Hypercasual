@@ -96,3 +96,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pontos: 1
+  PegarMoeda: {fileID: 1805772869691337290, guid: 23ce72840e6429249a3d3a1859aad16e, type: 3}

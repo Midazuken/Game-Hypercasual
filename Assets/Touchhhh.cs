@@ -3,25 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TouchControl : MonoBehaviour
+public class Touchhhh : MonoBehaviour
 {
     [SerializeField] private GameObject[] player;
-
+    // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
-
+    // Update is called once per frame
     void Update()
     {
         Touch[] touches = Input.touches;
 
-        foreach (Touch dedo in touches)
+        foreach (Touch tc in touches)
         {
-            
-            player[dedo.fingerId].transform.position = dedo.position;
-
+            player[tc.fingerId].transform.position = tc.position;
         }
+        
     }
 }
