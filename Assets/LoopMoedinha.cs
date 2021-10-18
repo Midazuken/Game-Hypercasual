@@ -6,20 +6,18 @@ public class LoopMoedinha : Loop
 {
 
     [SerializeField] private Vector2 rHeight;
-
+    public GameObject Moedin;
 
     void Start()
     {
-
-
-
-
+      
 
         onfundoloop += OnPassarinLoop;
         foreach (Transform moedinha in fundos)
         {
 
             DoRandomHeight(moedinha);
+            Moedin.SetActive(true);
 
         }
 
@@ -43,5 +41,6 @@ public class LoopMoedinha : Loop
 
     }
 
+    
 
 }
