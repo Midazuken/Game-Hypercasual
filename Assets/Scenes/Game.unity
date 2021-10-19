@@ -2225,6 +2225,25 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 372954688512059881, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
   m_PrefabInstance: {fileID: 372954688548199209}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &2043652224
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043652219}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9819b7e16131f414387629f31a3fce53, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2048908338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4119101555011449727, guid: fea34dd49f5d98c428196d8e1acc146e, type: 3}
@@ -2342,6 +2361,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 562196136}
     m_Modifications:
+    - target: {fileID: 372954688512059796, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 372954688512059796, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5795234334442424558, guid: d24b781a74acb0741a15bac3f71843e7, type: 3}
     - target: {fileID: 372954688512059796, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
       propertyPath: m_SortingOrder
       value: 5
