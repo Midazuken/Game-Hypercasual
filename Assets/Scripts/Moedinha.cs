@@ -15,7 +15,7 @@ public class Moedinha : MonoBehaviour
             Instantiate(PegarMoeda, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
             //Destroy(gameObject);
             gameObject.SetActive(false);
-            Invoke("Activate", 5f);
+            Invoke("Activate", 3f);
 
             Pause.stay.AllPontos += Pontos;
             Pause.stay.AlterandoPontos();
