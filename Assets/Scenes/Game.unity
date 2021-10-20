@@ -1053,7 +1053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &727083088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2237,6 +2237,14 @@ PrefabInstance:
     - target: {fileID: 372954688512059797, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
       propertyPath: m_Name
       value: Correndin
+      objectReference: {fileID: 0}
+    - target: {fileID: 372954688512059798, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 372954688512059798, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.07
       objectReference: {fileID: 0}
     - target: {fileID: 372954688512059799, guid: 3b78605c35e50ce42b9b409b3ce2c792, type: 3}
       propertyPath: m_RootOrder
