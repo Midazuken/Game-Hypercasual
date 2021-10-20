@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class MovPersonagem : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D rigid;
+    private Rigidbody2D _rigid;
     [SerializeField] Vector2 poder;
 
     public void pulin()
     {
-        rigid.velocity = Vector2.zero;
-        rigid.AddForce(poder, ForceMode2D.Impulse);
+        _rigid.velocity = Vector2.zero;
+        _rigid.AddForce(poder, ForceMode2D.Impulse);
+
+    }
+
+    private void Start()
+    {
+        _rigid = GetComponent<Rigidbody2D>();
     }
 
 
@@ -20,5 +26,4 @@ public class MovPersonagem : MonoBehaviour
 
 
 
-       
 }

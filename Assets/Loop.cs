@@ -34,4 +34,9 @@ public class Loop : MonoBehaviour
 
 
     }
+
+    void Start()
+    {
+        Application.targetFrameRate = 60;
+    }
 }
