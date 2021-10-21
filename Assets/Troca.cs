@@ -11,7 +11,7 @@ public class Troca : MonoBehaviour
     {
         correndin.SetActive(false);
         deitadin.SetActive(true);
-        Invoke("Activate", 0.75f);
+        Invoke("Activate", 0.5f);
 
     }
 
